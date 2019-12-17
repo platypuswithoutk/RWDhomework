@@ -1,0 +1,52 @@
+@media all and (max-width:992px) {
+    .first {
+        display: block;
+    }
+
+    .first .text1 {
+        display: none;
+    }
+
+    .text3 {
+        display: block;
+    }
+    
+
+    .second {
+        display: none;
+    }
+}
+
+@media all and (min-width:992px) {
+    .first {
+        display: none;
+       
+    }
+
+    .text3 {
+        display: none;
+    }
+
+    .second {
+        display: block;
+    }
+
+}
+
+
+
+
+@media all and (min-width:1170px) {
+  
+.first {
+    display: block;
+}
+
+.text3 {
+    display: none;
+}
+    .second {
+        display: none;
+    }
+}
+

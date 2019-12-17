@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1, h2 {
+    text-transform: uppercase;
+    color:white;
+    font-family: Verdana;
+}
+
+.first img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.second img{
+    width: 100%;
+    margin: auto;
+}
+
+.first .text1 {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  font-size: 1.6vw;
+}
+
+.second .text2 {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  font-size: 1.1vw;
+}
+
+h3, h4 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin: 8px;
+    text-transform: uppercase;
+}
