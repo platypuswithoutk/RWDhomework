@@ -1,43 +1,30 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-
-h1, h2 {
-    text-transform: uppercase;
-    color:white;
-    font-family: Verdana;
+body {
+    font-family: 'Verdana', sans-serif;
+    color: white;
 }
 
-.first img {
+header {
+    background-image: url(../man-1.jpg);
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    display: block;
-    margin: auto;
 }
 
-.second img{
-    width: 100%;
-    margin: auto;
-}
-
-.first .text1 {
-  position: absolute;
-  top: 50%;
-  left: 3%;
-  font-size: 1.6vw;
-}
-
-.second .text2 {
-  position: absolute;
-  top: 20%;
-  right: 15%;
-  font-size: 1.1vw;
-}
-
-h3, h4 {
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    margin: 8px;
+header div {
     text-transform: uppercase;
+    position: relative;
+    text-align: left;
+    top: 70%;
 }
+
+header div h1, header div h2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+

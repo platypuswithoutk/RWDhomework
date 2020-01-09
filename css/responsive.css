@@ -1,52 +1,31 @@
-@media all and (max-width:992px) {
-    .first {
-        display: block;
-    }
-
-    .first .text1 {
-        display: none;
-    }
-
-    .text3 {
-        display: block;
+@media (min-width: 992px) and (max-width: 1170px) {
+    header {
+        height: 70vh;
+        background-image: url(../man-2.jpg);
     }
     
-
-    .second {
-        display: none;
+    header div {
+        top: 30%;
+        left: 5%;
     }
-}
-
-@media all and (min-width:992px) {
-    .first {
-        display: none;
-       
+        
+    header div h1, header div h2 {
+        margin-left: 50vw;
+    }    
     }
-
-    .text3 {
-        display: none;
+    
+    @media (max-width: 991px) {
+    header {
+        height: 50vh;
     }
-
-    .second {
-        display: block;
+    
+    header div {
+        top: 110%;
+        color: rgb(105, 100, 100);
+        text-align: center;
     }
-
-}
-
-
-
-
-@media all and (min-width:1170px) {
-  
-.first {
-    display: block;
-}
-
-.text3 {
-    display: none;
-}
-    .second {
-        display: none;
+        
+    header div h1, header div h2 {
+        margin-left: 0;
+    }    
     }
-}
-
