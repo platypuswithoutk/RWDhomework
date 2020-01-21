@@ -5,12 +5,12 @@
     }
     
     header div {
-        top: 30%;
-        left: 5%;
+        top: 35%;
     }
         
     header div h1, header div h2 {
-        margin-left: 50vw;
+        margin-left: 55vw;
+
     }    
     }
     
@@ -25,7 +25,4 @@
         text-align: center;
     }
         
-    header div h1, header div h2 {
-        margin-left: 0;
-    }    
-    }
+}
